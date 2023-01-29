@@ -1,25 +1,41 @@
 
-/* hiprint-pagination ��ӡ��ҳ*/
+/* hiprint-pagination */
 .hiprint-pagination {
     display: inline-block;
     padding-left: 0;
 }
-
     .hiprint-pagination > li {
-        display: inline;
+        border: 1px solid #bdc3c7;
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        display: block;
+        float: left;
+        padding: 5px;
+        text-decoration: none;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        font-family: helvetica;
+        font-size: 13px;
+        cursor: pointer
     }
 
-        .hiprint-pagination > li > a {
-            position: relative;
-            float: left;
-            padding: 3px 10px;
-            margin-left: -1px;
-            line-height: 1.42857143;
-            color: #337ab7;
-            text-decoration: none;
-            background-color: #fff;
-            border: 1px solid #ddd;
+        .hiprint-pagination > li > span {
+            padding: 0 10px 0 10px;
         }
+
+        .hiprint-pagination > li > a {
+            color: #bdc3c7;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 11px;
+            padding: 3px;
+        }
+
+            .hiprint-pagination > li > a:hover {
+                color: red;
+            }
+
+
 
 .hiprint-pagination-sm > li > a {
     padding: 5px 10px;
@@ -39,7 +55,7 @@
     .rect-printElement-types .hiprint-printElement-type > li > .title {
         display: block;
         padding: 4px 0px;
-        clear:both;
+        clear: both;
     }
 
     .rect-printElement-types .hiprint-printElement-type > li > ul {
@@ -98,8 +114,7 @@
         padding: 0 0 0 0;
         display: block;
         list-style: none;
-        width:100%;
-          
+        width: 100%;
     }
 
         .small-printElement-types .hiprint-printElement-type > li > ul > li {
@@ -134,12 +149,11 @@
 /* hiprint-toolbar*/
 
 .hiprint-toolbar {
-   
 }
 
     .hiprint-toolbar > ul {
         padding: 0px;
-        margin-bottom:5px;
+        margin-bottom: 5px;
     }
 
         .hiprint-toolbar > ul > li {
@@ -166,7 +180,7 @@
     text-align: center;
     word-wrap: break-word;
     /*font-size: 0.65rem;
-  font-weight: normal;*/
+font-weight: normal;*/
     font-family: Helvetica, sans-serif;
 }
 
@@ -222,7 +236,7 @@
     height: 19pt;
 }
 
-.hiprint-option-item-submitBtn {
+.hiprint-option-item-settingBtn {
     height: 19pt;
     line-height: 19pt;
     font-size: 12px;
@@ -240,6 +254,9 @@
     transform: translateZ(0);
 }
 
+.hiprint-option-item-deleteBtn {
+    background: red;
+}
 
 .hiprint-option-items .minicolors {
     position: relative;
@@ -540,7 +557,7 @@
 
 
     .hitable .selected {
-        background: #30569942;
+        background: #3e66ad;
     }
 
 
@@ -629,3 +646,161 @@
     width: 95%;
     height: 80%;
 }
+
+
+
+
+.hipanel-disable {
+    height: 0px;
+    display: block !important;
+    top: 8500px;
+    width: 0px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.hiprint_rul_wrapper {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    border: 0;
+    border-top: 1px solid rgb(201, 190, 190);
+    border-left: 1px solid rgb(201, 190, 190);
+    padding-left: 15px;
+    margin: -16px
+}
+
+    .hiprint_rul_wrapper .h_img {
+        position: absolute;
+        top: 0px;
+        left: 15px;
+        width: 400mm;
+        height: 15px;
+    }
+
+    .hiprint_rul_wrapper .v_img {
+        width: 400mm;
+        transform: rotate(90deg);
+        transform-origin: 0 100%;
+        height: 15px;
+        position: absolute;
+        top: -2px;
+        left: 0px;
+    }
+
+/*hiprint-option-table*/
+
+.hiprint-option-table-selected-columns {
+    color: inherit;
+    background-color: transparent;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    padding: 0px;
+    list-style: none;
+}
+
+    .hiprint-option-table-selected-columns .hiprint-option-table-selected-item {
+        color: inherit;
+        background-color: transparent;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0 3px;
+        border: 1px solid rgb(169, 169, 169);
+        line-height: 19pt;
+        margin: 3px 0;
+    }
+/*hi-pretty */
+.hi-pretty * {
+    box-sizing: border-box;
+}
+
+.hi-pretty input:not([type='checkbox']):not([type='radio']) {
+    display: none;
+}
+
+.hi-pretty {
+    position: relative;
+    display: inline-block;
+    margin-right: 1em;
+    white-space: nowrap;
+    line-height: 1;
+}
+
+    .hi-pretty input {
+        position: absolute;
+        left: 0;
+        top: 0;
+        min-width: 1em;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        opacity: 0;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    .hi-pretty .state label {
+        position: initial;
+        display: inline-block;
+        font-weight: normal;
+        margin: 0;
+        text-indent: 1.5em;
+        min-width: calc(1em + 2px);
+    }
+
+        .hi-pretty .state label:before,
+        .hi-pretty .state label:after {
+            content: '';
+            width: calc(1em + 2px);
+            height: calc(1em + 2px);
+            display: block;
+            box-sizing: border-box;
+            border-radius: 0;
+            border: 1px solid transparent;
+            z-index: 0;
+            position: absolute;
+            left: 0;
+            top: calc((0% - (100% - 1em)) - 8%);
+            background-color: transparent;
+        }
+
+        .hi-pretty .state label:before {
+            border-color: #bdc3c7;
+        }
+
+    .hi-pretty .state.p-is-hover,
+    .hi-pretty .state.p-is-indeterminate {
+        display: none;
+    }
+
+
+    .hi-pretty.p-default.p-fill .state label:after {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+
+    .hi-pretty.p-default .state label:after {
+        -webkit-transform: scale(0.6);
+        -ms-transform: scale(0.6);
+        transform: scale(0.6);
+    }
+
+    .hi-pretty.p-default input:checked ~ .state label:after {
+        background-color: #bdc3c7 !important;
+    }
+
+    .hi-pretty.p-default.p-thick .state label:before,
+    .hi-pretty.p-default.p-thick .state label:after {
+        border-width: calc(1em / 7);
+    }
+
+    .hi-pretty.p-default.p-thick .state label:after {
+        -webkit-transform: scale(0.4) !important;
+        -ms-transform: scale(0.4) !important;
+        transform: scale(0.4) !important;
+    }
