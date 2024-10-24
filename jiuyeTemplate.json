@@ -1,0 +1,577 @@
+{
+    "panels": [
+        {
+            "index": 0,
+            "name": 1,
+            "height": 297,
+            "width": 210,
+            "paperHeader": 0,
+            "paperFooter": 841,
+            "printElements": [
+                {
+                    "options": {
+                        "left": 292.5,
+                        "top": 53,
+                        "height": 19.5,
+                        "width": 31.5,
+                        "title": "年",
+                        "zIndex": 3,
+                        "right": 411.75,
+                        "bottom": 74.2500057220459,
+                        "vCenter": 351.75,
+                        "hCenter": 64.5000057220459,
+                        "field": "year",
+                        "testData": "2024",
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "hideTitle": true,
+                        "fontFamily": "SimSun",
+                        "fontSize": 12,
+                        "textAlign": "center",
+                        "textContentVerticalAlign": "middle",
+                        "qrCodeLevel": 0
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 0,
+                        "top": -3,
+                        "height": 841,
+                        "width": 595,
+                        "right": 603.25,
+                        "bottom": 1092.25,
+                        "vCenter": 305.75,
+                        "hCenter": 671.75,
+                        "src": "insertBase64",
+                        "fit": "contain",
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "fixed": true,
+                        "zIndex": 1,
+                        "field": "base_img"
+                    },
+                    "printElementType": {
+                        "title": "Logo",
+                        "type": "image"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 334.5,
+                        "top": 52.5,
+                        "height": 19.5,
+                        "width": 31.5,
+                        "title": "月",
+                        "zIndex": 3,
+                        "right": 388.74373626708984,
+                        "bottom": 77.49374771118164,
+                        "vCenter": 372.99373626708984,
+                        "hCenter": 67.74374771118164,
+                        "field": "month",
+                        "testData": "06",
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "hideTitle": true,
+                        "fontFamily": "SimSun",
+                        "fontSize": 12,
+                        "textAlign": "center",
+                        "textContentVerticalAlign": "middle",
+                        "qrCodeLevel": 0,
+                        "qid": "year_1"
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 378,
+                        "top": 52.5,
+                        "height": 19.5,
+                        "width": 31.5,
+                        "title": "日",
+                        "zIndex": 3,
+                        "right": 408.99375915527344,
+                        "bottom": 72.24374771118164,
+                        "vCenter": 393.24375915527344,
+                        "hCenter": 62.49374771118164,
+                        "field": "day",
+                        "testData": "06",
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "hideTitle": true,
+                        "fontFamily": "SimSun",
+                        "fontSize": 12,
+                        "textAlign": "center",
+                        "textContentVerticalAlign": "middle",
+                        "qrCodeLevel": 0,
+                        "qid": "m1_1"
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 67.5,
+                        "top": 84,
+                        "height": 19.5,
+                        "width": 64.5,
+                        "title": "开始时间",
+                        "zIndex": 3,
+                        "right": 99.24375915527344,
+                        "bottom": 102.99374771118164,
+                        "vCenter": 83.49375915527344,
+                        "hCenter": 93.24374771118164,
+                        "field": "time_start",
+                        "testData": "17:00",
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "hideTitle": true,
+                        "fontFamily": "SimSun",
+                        "fontSize": 12,
+                        "textAlign": "center",
+                        "textContentVerticalAlign": "middle",
+                        "qrCodeLevel": 0,
+                        "qid": "m1_2"
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 309,
+                        "top": 84,
+                        "height": 19.5,
+                        "width": 162,
+                        "title": "活动名称",
+                        "zIndex": 3,
+                        "right": 338.49375915527344,
+                        "bottom": 102.99374771118164,
+                        "vCenter": 322.74375915527344,
+                        "hCenter": 93.24374771118164,
+                        "field": "hdmc",
+                        "testData": "IDK街舞社上课",
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "hideTitle": true,
+                        "fontFamily": "SimSun",
+                        "fontSize": 12,
+                        "textAlign": "center",
+                        "textContentVerticalAlign": "middle",
+                        "qrCodeLevel": 0,
+                        "qid": "m1_3"
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 42,
+                        "top": 115.5,
+                        "height": 19.5,
+                        "width": 336,
+                        "title": "借用场地",
+                        "zIndex": 3,
+                        "right": 73.74375915527344,
+                        "bottom": 134.49374771118164,
+                        "vCenter": 57.99375915527344,
+                        "hCenter": 124.74374771118164,
+                        "field": "jycd",
+                        "testData": "公三就业招聘活动厅",
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "hideTitle": true,
+                        "fontFamily": "SimSun",
+                        "fontSize": 12,
+                        "textAlign": "center",
+                        "textContentVerticalAlign": "middle",
+                        "qrCodeLevel": 0,
+                        "qid": "m1_4"
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 97.5,
+                        "top": 223.5,
+                        "height": 19.5,
+                        "width": 91.5,
+                        "title": "申请人",
+                        "zIndex": 3,
+                        "right": 129.24375915527344,
+                        "bottom": 242.49374771118164,
+                        "vCenter": 113.49375915527344,
+                        "hCenter": 232.74374771118164,
+                        "field": "sqr",
+                        "testData": "郭凡漪",
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "hideTitle": true,
+                        "fontFamily": "SimSun",
+                        "fontSize": 12,
+                        "textAlign": "center",
+                        "textContentVerticalAlign": "middle",
+                        "qrCodeLevel": 0,
+                        "qid": "m1_5"
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 244.5,
+                        "top": 223.5,
+                        "height": 19.5,
+                        "width": 97.5,
+                        "title": "联系电话",
+                        "zIndex": 3,
+                        "right": 275.49375915527344,
+                        "bottom": 240.24374771118164,
+                        "vCenter": 259.74375915527344,
+                        "hCenter": 230.49374771118164,
+                        "field": "lxdh",
+                        "testData": "18888888888",
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "hideTitle": true,
+                        "fontFamily": "SimSun",
+                        "fontSize": 12,
+                        "textAlign": "center",
+                        "textContentVerticalAlign": "middle",
+                        "qrCodeLevel": 0,
+                        "qid": "m1_6"
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 57,
+                        "top": 430.5,
+                        "height": 19.5,
+                        "width": 36,
+                        "title": "月",
+                        "zIndex": 3,
+                        "right": 88.5,
+                        "bottom": 450.0000114440918,
+                        "vCenter": 72.75,
+                        "hCenter": 440.2500114440918,
+                        "field": "month",
+                        "testData": "06",
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "hideTitle": true,
+                        "fontFamily": "SimSun",
+                        "fontSize": 12,
+                        "textAlign": "center",
+                        "textContentVerticalAlign": "middle",
+                        "qrCodeLevel": 0,
+                        "qid": "m1_7"
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 105,
+                        "top": 430.5,
+                        "height": 19.5,
+                        "width": 25.5,
+                        "title": "日",
+                        "zIndex": 3,
+                        "right": 141.24374771118164,
+                        "bottom": 449.49374771118164,
+                        "vCenter": 123.24374771118164,
+                        "hCenter": 439.74374771118164,
+                        "field": "day",
+                        "testData": "06",
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "hideTitle": true,
+                        "fontFamily": "SimSun",
+                        "fontSize": 12,
+                        "textAlign": "center",
+                        "textContentVerticalAlign": "middle",
+                        "qrCodeLevel": 0,
+                        "qid": "m1_8"
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 180,
+                        "top": 430.5,
+                        "height": 19.5,
+                        "width": 19.5,
+                        "title": "星期",
+                        "zIndex": 3,
+                        "right": 198.75,
+                        "bottom": 450.7500114440918,
+                        "vCenter": 189,
+                        "hCenter": 441.0000114440918,
+                        "field": "xq",
+                        "testData": "五",
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "hideTitle": true,
+                        "fontFamily": "SimSun",
+                        "fontSize": 12,
+                        "textAlign": "center",
+                        "textContentVerticalAlign": "middle",
+                        "qrCodeLevel": 0,
+                        "qid": "m1_9"
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 216,
+                        "top": 430.5,
+                        "height": 19.5,
+                        "width": 19.5,
+                        "title": "开始小时",
+                        "zIndex": 3,
+                        "right": 234.99375915527344,
+                        "bottom": 448.74374771118164,
+                        "vCenter": 225.24375915527344,
+                        "hCenter": 438.99374771118164,
+                        "field": "hour_start",
+                        "testData": "17",
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "hideTitle": true,
+                        "fontFamily": "SimSun",
+                        "fontSize": 12,
+                        "textAlign": "center",
+                        "textContentVerticalAlign": "middle",
+                        "qrCodeLevel": 0,
+                        "qid": "m1_10"
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 247.5,
+                        "top": 430.5,
+                        "height": 19.5,
+                        "width": 19.5,
+                        "title": "开始分钟",
+                        "zIndex": 3,
+                        "right": 266.49375915527344,
+                        "bottom": 448.74374771118164,
+                        "vCenter": 256.74375915527344,
+                        "hCenter": 438.99374771118164,
+                        "field": "minute_start",
+                        "testData": "00",
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "hideTitle": true,
+                        "fontFamily": "SimSun",
+                        "fontSize": 12,
+                        "textAlign": "center",
+                        "textContentVerticalAlign": "middle",
+                        "qrCodeLevel": 0,
+                        "qid": "m1_11"
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 291,
+                        "top": 430.5,
+                        "height": 19.5,
+                        "width": 19.5,
+                        "title": "结束小时",
+                        "zIndex": 3,
+                        "right": 310.74375915527344,
+                        "bottom": 450.24374771118164,
+                        "vCenter": 300.99375915527344,
+                        "hCenter": 440.49374771118164,
+                        "field": "hour_end",
+                        "testData": "20",
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "hideTitle": true,
+                        "fontFamily": "SimSun",
+                        "fontSize": 12,
+                        "textAlign": "center",
+                        "textContentVerticalAlign": "middle",
+                        "qrCodeLevel": 0,
+                        "qid": "m1_12"
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 322.5,
+                        "top": 430.5,
+                        "height": 19.5,
+                        "width": 19.5,
+                        "title": "结束分钟",
+                        "zIndex": 3,
+                        "right": 342.24375915527344,
+                        "bottom": 447.99374771118164,
+                        "vCenter": 332.49375915527344,
+                        "hCenter": 438.24374771118164,
+                        "field": "minute_end",
+                        "testData": "30",
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "hideTitle": true,
+                        "fontFamily": "SimSun",
+                        "fontSize": 12,
+                        "textAlign": "center",
+                        "textContentVerticalAlign": "middle",
+                        "qrCodeLevel": 0,
+                        "qid": "m1_13"
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 327,
+                        "top": 454.5,
+                        "height": 19.5,
+                        "width": 79.5,
+                        "title": "借用场地",
+                        "zIndex": 3,
+                        "right": 346.74375915527344,
+                        "bottom": 473.49374771118164,
+                        "vCenter": 336.99375915527344,
+                        "hCenter": 463.74374771118164,
+                        "field": "jycd",
+                        "testData": "公三就业招聘活动厅",
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "hideTitle": true,
+                        "fontFamily": "SimSun",
+                        "fontSize": 12,
+                        "textAlign": "center",
+                        "textContentVerticalAlign": "middle",
+                        "qrCodeLevel": 0,
+                        "qid": "m1_14"
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 438,
+                        "top": 454.5,
+                        "height": 19.5,
+                        "width": 114,
+                        "title": "活动名称",
+                        "zIndex": 3,
+                        "right": 456.99375915527344,
+                        "bottom": 474.99374771118164,
+                        "vCenter": 447.24375915527344,
+                        "hCenter": 465.24374771118164,
+                        "field": "hdmc",
+                        "testData": "IDK街舞社上课",
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "hideTitle": true,
+                        "fontFamily": "SimSun",
+                        "fontSize": 12,
+                        "textAlign": "center",
+                        "textContentVerticalAlign": "middle",
+                        "qrCodeLevel": 0,
+                        "qid": "m1_15"
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 165,
+                        "top": 84,
+                        "height": 19.5,
+                        "width": 79.5,
+                        "title": "结束时间",
+                        "zIndex": 3,
+                        "right": 228.99375915527344,
+                        "bottom": 102.99375343322754,
+                        "vCenter": 196.74375915527344,
+                        "hCenter": 93.24375343322754,
+                        "field": "time_end",
+                        "testData": "20:30",
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "hideTitle": true,
+                        "fontFamily": "SimSun",
+                        "fontSize": 12,
+                        "textAlign": "center",
+                        "textContentVerticalAlign": "middle",
+                        "qrCodeLevel": 0,
+                        "qid": "time_1"
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                }
+            ],
+            "paperNumberLeft": 565.5,
+            "paperNumberTop": 205.5,
+            "paperNumberContinue": true,
+            "panelPageRule": "none",
+            "watermarkOptions": {
+                "content": "",
+                "fillStyle": "rgba(184, 184, 184, 0.3)",
+                "fontSize": "14px",
+                "rotate": 25,
+                "width": 200,
+                "height": 200,
+                "timestamp": false,
+                "format": "YYYY-MM-DD HH:mm"
+            },
+            "panelLayoutOptions": {
+                "layoutType": "column",
+                "layoutRowGap": 0,
+                "layoutColumnGap": 0
+            }
+        }
+    ]
+}
