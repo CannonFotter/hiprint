@@ -52,7 +52,6 @@
                         "widthHeightSync": false,
                         "fixed": true,
                         "zIndex": 1,
-                        "field": "base_img"
                     },
                     "printElementType": {
                         "title": "Logo",
