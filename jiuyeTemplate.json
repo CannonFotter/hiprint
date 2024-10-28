@@ -51,7 +51,7 @@
                         "coordinateSync": false,
                         "widthHeightSync": false,
                         "fixed": true,
-                        "zIndex": 1,
+                        "zIndex": 1
                     },
                     "printElementType": {
                         "title": "Logo",
